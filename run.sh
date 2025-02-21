@@ -3,7 +3,7 @@
 # Config vars
 DATA_DIR="/data"
 GIT_REPO_NAME="longvinter-linux-server"
-GIT_REPO_BRANCH="main"
+GIT_REPO_BRANCH="official"
 GIT_REPO_URL="https://github.com/Uuvana-Studios/longvinter-linux-server.git"
 SERVER_CONFIG_PATH="Longvinter/Saved/Config/LinuxServer/Game.ini"
 
