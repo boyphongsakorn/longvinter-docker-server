@@ -1,6 +1,10 @@
 name: 'Build Images to Github'
 
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: '0 17 * * *'
 
 env:
   # Use docker.io for Docker Hub if empty
